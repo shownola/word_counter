@@ -1,4 +1,10 @@
-<div class="jumbtron">
-  <h1>Pages / Home</h1>
+<div class="container text-center">
+  <h1>Your text contains</h1>
+  <p><%= pluralize(@word_count, 'Word') %></p>
+  <hr />
+  <div class="row">
+    <textarea name="" id="data-entry" rows=8  type="text" data-reflex="keyup->CalculatorReflex#calculate" placeholder="Type Something..." class="form-control form-control-lg d-inline-block col-6"><%= @words %></textarea>
+    <textarea name="" id="data-exit" rows=8  type="text"  placeholder="Your reversed text..." class="form-control form-control-lg d-inline-block col-6"><%= @reversed %></textarea>
+
+  </div>
 </div>
-<input id="data-entry" type="text" data-reflex="keyup->ReverseTextReflex#perform" placeholder="Type something..." class="form-control form-control-lg d-inline-block col-4"><span class="ml-3"><%= @value %></span>

@@ -1,13 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a very simple demo of StimulusReflex.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.6.3
 
-* System dependencies
+* Rails 6.0.3
+
+* Stimulus reflex
+
+* RailsBytes for templating Bootstrap
+
+* Redis needs to be installed and running to run program
 
 * Configuration
 
